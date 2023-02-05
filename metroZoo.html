@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+	<title></title>
+  
+</head>
+<style type="text/css">
+  .action2-button{
+    border: none;
+  border-radius: 40px;
+  color: #fff;
+  box-shadow: none;
+  text-shadow: none;
+  padding: .4rem 10rem .4rem 10rem;
+  background: transparent linear-gradient(256deg, #42ADF0 0%, #21468D 100%) 0% 0% no-repeat padding-box;;
+  transition: background-color 0.25s;
+  outline: none;
+  }
+.mobile-menu{
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .mobile-menu{
+    display: block;
+  }
+  #desktop-menu{
+    display: none;
+  }
+}
+.swiper-container {
+    position:relative;
+    width: 90vw;
+    height: 300px;
+}
+.swiper-container > .swiper-slide__content {
+  position:absolute;
+  top:0;
+}
+.swiper-slide {
+  height: 300px;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  transition:all 200ms linear;
+  transform: scale(0.8);
+    z-index: -1;
+    opacity: .2;
+}  
+  .swiper-slide-active{
+    transform: scale(1.1) !important;
+    z-index: 2;
+    opacity: 1;
+
+  }
+
+.swiper-slide__content {
+  height: 300px;
+}
+
+</style>
+<body>
+<div>
+        <div class="header-blue">
+            <nav class="navbar navbar-light navbar-expand-md navigation-clean-search" id="desktop-menu">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+                    <div class="collapse navbar-collapse"
+                        id="navbarNavAltMarkup">
+                        <div class="navbar-nav" align="center" style="margin-left: 40%;">
+      <a class="nav-item nav-link active" href="index.html" >Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">About</a>
+      <a class="nav-item nav-link" href="#section3">Work</a>
+      <a href="#section5"><button type="button" class="btn btn-primary">Let's Talk</button></a>
+    </div>
+  </div></nav>
+  <div class="mobile-menu">
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="fa-solid fa-bars-staggered js-menu-toggle text-white"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+
+
+
+      <header class="site-navbar site-navbar-target py-4" role="banner">
+
+        <div class="container">
+          <div class="row align-items-center position-relative">
+            <div class="col-3">
+              <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+            </div>
+            <div class="col-9  text-right">
+              
+
+              <span class="d-inline-block d-lg-block"><a href="#" class="text-black site-menu-toggle js-menu-toggle py-5"><i class="fa-solid fa-bars-staggered text-white" style="font-size: 30px;"></i></a></span>
+
+                <nav class="site-navigation text-right ml-auto d-none d-lg-none" role="navigation">
+                <ul class="site-menu main-menu js-clone-nav ml-auto ">
+                  <li class="active"><a href="index.html" class="nav-link" style="color:white;">Home</a></li>
+                  <li><a href="about.html" class="nav-link" style="color:white;">Websites</a></li>
+                  <li><a href="services.html" class="nav-link" style="color:white;">Mobile Apps</a></li>
+                
+                <li class="nav-link" style="margin:18rem 0rem 0rem 3rem">  <a class="navbar-brand" href="#"><img src="images/logo.png"></a></li>
+                
+                </ul>
+
+              </nav>
+            </div>
+
+            
+          </div>
+        </div>
+
+      </header>
+  </div>
+  <div class="section2" align="center" style="overflow-x:hidden;">
+          <div class="container">
+            <h3 class="stat-title" style="color: white; margin-top: 0px; padding-top: 5rem; padding-bottom: 3rem; ">Metro Zoo</h3>
+          </div>
+     <div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="images/service1-inner.png">
+          
+        </div>
+        <div class="swiper-slide">
+          
+          <img src="images/service1-inner.png">
+        </div>
+        <div class="swiper-slide">
+          <img src="images/service1-inner.png">
+        </div>
+    </div>
+      <!-- If we need navigation buttons -->
+<div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+</div>
+          <h6 style="color:  white; width: 65%; margin-top: 5rem;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h6>
+          <div class="container" style="padding-top: 2rem;">
+        <button class="btn btn-light btn-lg action2-button" type="button" >Back</button>
+      </div>
+        </div>
+        
+
+</div>
+<div class="section5" align="center">
+          <div class="container" align="center">
+            <h3 class="stat-title" align="center" style="color: white; margin-top: 0px; padding-top: 5rem;">Contact us</h3>
+            <h6 style="color:  white; width: 65%;">Interested in learning how we can help with your project?.</h6>
+        </div>
+        <div class="container-fluid" style="overflow-x: hidden;">
+        <div class="row">
+          <div class="col-md-2"  id="contact_minisection">
+            <img src="images/contact1.png">
+          </div>
+          <div class="col-md-8" style="margin-top: 5rem;">
+      <form>
+      <div class="row" >
+
+        <div class="col-sm-6 form-group">
+          <!--datafire code-->
+          
+         <input class="form-control form" id="name" name="name" placeholder="Name" type="text" autofocus="">
+        </div>
+        
+        <div class="col-sm-6 form-group">
+          <input class="form-control form" id="email" name="email" placeholder="Email" type="email" >
+        </div>
+      
+      </div>
+      <div class="row" align="center">
+        <div class="col-sm-12 form-group">
+      <textarea class="form-control form2" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+    </div>
+  </div>
+    </form>
+    <div class="row">
+      <div class="col-sm-12 form-group">
+        <a class="btn btn-light action-button" role="button" href="#">Submit Form</a>
+
+      </div>
+    </div>
+          </div>
+          <div class="col-md-2" id="contact_minisection">
+            <img src="images/contact2.png">
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="section6" align="center" style="color:white; overflow-x: hidden;">
+          <div class="row">
+            <div class="col-md-12">
+            <img src="images/logo.png" style="padding-top:5rem;">
+          </div>
+          </div>
+          <div style="color:white; margin-top:2rem ;">
+            <a href="#" style="padding:1rem; color: white;">Home</a>
+            <a href="#" style="padding:1rem; color: white;">Work</a>
+            <a href="#" style="padding:1rem; color: white;">About</a>
+          </div>
+          <div style="color:white; margin-top:3rem ;">
+            <p>New York , NY</p>
+          </div>
+        </div>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      $(document).ready(function() {
+  // Assign some jquery elements we'll need
+  var $swiper = $(".swiper-container");
+  var $bottomSlide = null; // Slide whose content gets 'extracted' and placed
+  // into a fixed position for animation purposes
+  var $bottomSlideContent = null; // Slide content that gets passed between the
+  // panning slide stack and the position 'behind'
+  // the stack, needed for correct animation style
+
+  var mySwiper = new Swiper(".swiper-container", {
+    
+    slidesPerView: 3,
+    centeredSlides: true,
+    roundLengths: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    },
+    breakpoints: {
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 200,
+          },
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 200,
+          },
+          992: {
+            slidesPerView: 1,
+            spaceBetween: 1,
+          },
+          1280: {
+            slidesPerView: 3,
+            spaceBetween: -350,
+          },
+        }
+  });
+});
+    </script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/073778b947.js"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
